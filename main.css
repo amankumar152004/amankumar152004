@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 4em;
+}
+.main{
+    display:flex;
+    background-image: url("https://th.bing.com/th/id/OIP.SS7Q_b7eUy0dOmQtThS9MwHaE7?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    height: 700px;
+    width: 1472;
+    gap: 2em;
+    color: antiquewhite;
+    justify-content: space-evenly;
+}
+.RPS{
+    margin: 0;
+    color: aqua;
+}
+.logo1{
+    
+    margin:10px;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    object-fit:contain;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration:none;
+    color: bisque;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.logo1:hover {
+    cursor: pointer;
+    background-color: black;
+    animation: bounce 0.5s;
+}
